@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<div th:replace="base :: head"></div>
+
+<body id="login-body">
+<div class="container">
+    <div class="row">
+        <div class="col-12" style="text-align: center">
+            <div th:replace="base :: navlinks"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="login-container">
+    <div class="d-flex justify-content-center" style="margin-top:200px">
+        <div class="card" id="login-card">
+            <div class="card-header">
+                <h3>Log In</h3>
+            </div>
+            <div class="login-card-body">
+                <form action="/login" method="post">
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend" id="login-input-group-prepend1">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" name="username" placeholder="username">
+
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend" id="login-input-group-prepend2">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" class="form-control" name="password" placeholder="password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn float-right login_btn" id="login-btn">Login</button>
+                    </div>
+                </form>
+            </div>
+      </div>
+      </div>
+      </div>
+
+<!--footer template-->
+<div>
+    <div th:replace="base :: footer"></div>
+</div>
+
+<script th:src="@{https://kit.fontawesome.com/48c5dd92ba.js}" crossorigin="anonymous"></script>
+<script th:src="@{https://code.jquery.com/jquery-3.2.1.slim.min.js}"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js}"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script th:src="@{https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js}"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
