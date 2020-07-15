@@ -28,7 +28,7 @@ Run in IDE and open a web browser to your default localhost port (generally this
 
 * **Kristyn Ferber**  - [kferbs](https://github.com/kristynf)
 * **Bahar**  - [Bahar Asefi](https://github.com/Bahar61)
-* **Rick Todman** - [Eric Todman](https://github.com/ricksinclair)
+* **Rick Todman** - [Ulric Todman](https://github.com/ricksinclair)
 * **Wade Taylor**  - [Wade Taylor](https://www.linkedin.com/in/wade-taylor-5011319b/)
 * **Shodie Lyon** - [Shodie Lyon](https://www.linkedin.com/in/shodielyon/)
 * **David Mudrauskas** - [David Mudrauskas](https://www.linkedin.com/in/davidmudrauskas/)
